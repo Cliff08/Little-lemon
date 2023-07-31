@@ -1,0 +1,34 @@
+#header {
+    display: block;
+
+}
+#header .container{
+    align-items: center;
+    justify-content: space-between;
+}
+#header nav{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+#header ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+#header li{
+    margin: 0;
+}
+#header li a {
+    max-width: 7.5rem;
+    margin: 0;
+    padding: 0 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+#header li a:hover {
+    color: #f4c009;
+}

@@ -1,0 +1,58 @@
+.special-card{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    min-height: 25rem;
+    height:100%;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 1px 1px 15px #dbdbdb;
+}
+.special-card #img{
+    width: 336px;
+    height: 167px;
+}
+.special-card .food-word{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.special-card .food-word .food-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+.food-name{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+.food-price{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #bba227;
+}
+.food-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #000000;
+}
+.food-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000;
+}

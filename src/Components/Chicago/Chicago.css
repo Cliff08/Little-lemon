@@ -1,0 +1,67 @@
+#section4 {
+    display: block;
+    background-color:aliceblue;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    min-height: 600px;
+}
+
+
+#section4 .call-content{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    grid-column-gap: 5rem;
+    min-height: 600px;
+}
+
+
+#section4 .word{
+    padding: 1.5rem 0 1rem 0;
+    /*display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;*/
+
+}
+
+#section4 .tit1{
+    font-size: 4rem;
+    color: #382911;
+    line-height: 1;
+    margin: 0;
+
+}
+#section4 .tit2{
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    color: #0c0c0c;
+    letter-spacing: 0.25rem;
+    margin: 10px 0 10px 0;
+}
+#section4 .content{
+    color: #1a1919;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 30px 0 60px 0;
+}
+#section4 #img-cont{
+
+    position: relative;
+}
+#section4 .backgroud-image{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+#section4 .overlay-image{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 170px;
+    left: 273px;
+}

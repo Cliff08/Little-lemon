@@ -1,0 +1,25 @@
+#section3{
+    display: block;
+    background-color: rgb(69, 93, 76);
+    width: 100%;
+    height: 100%;
+    padding: 110px 0 110px 0;
+}
+#section3 #customersay{
+    display: flex;
+    flex-direction: column;
+}
+#customersay #title{
+    height: 100px;
+    text-align: center;
+    justify-self: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+#customersay #card-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
