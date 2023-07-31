@@ -1,0 +1,75 @@
+
+#BookingForm .container{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.date{
+    margin: 0 0 1.25rem;
+    padding-right: 2.4rem;
+}
+.time{
+    margin: 0 0 1.25rem;
+    padding-right: 2.4rem;
+}
+.people-count{
+    margin: 0 0 1.25rem;
+    padding-right: 2.4rem;
+}
+.occasion{
+    margin: 0 0 1.25rem;
+}
+
+/*.date{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.people-count{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.occasion{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}*/
+.form-item-title{
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+input,select{
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
+    border: 0.0625rem solid #c2c2c2;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    background: #ffffff;
+    color: #495e57;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+.reservation-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.reservation-button button{
+    width: 12rem;
+    height: 3.5rem;
+    background-color: coral;
+    border-radius: 0.5rem;
+    font-size: 1.75rem;
+    color: #7558e9;
+}

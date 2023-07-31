@@ -1,0 +1,22 @@
+#Bookingpage{
+    display: block;
+    background-color: rgb(197, 235, 228);
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+}
+#Bookingpage .container{
+    flex-direction: column;
+}
+#Bookingpage .title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #000000;
+}
+#Bookingpage .Bookingform{
+    max-width: 450px;
+    margin: 0 auto;
+}
