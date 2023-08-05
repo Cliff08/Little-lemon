@@ -5,15 +5,14 @@
 }
 .date{
     margin: 0 0 1.25rem;
-    padding-right: 2.4rem;
+    padding-right: 2.3rem;
 }
 .time{
     margin: 0 0 1.25rem;
-    padding-right: 2.4rem;
 }
-.people-count{
+.people{
     margin: 0 0 1.25rem;
-    padding-right: 2.4rem;
+    padding-right: 2.3rem;
 }
 .occasion{
     margin: 0 0 1.25rem;
@@ -72,4 +71,7 @@ input,select{
     border-radius: 0.5rem;
     font-size: 1.75rem;
     color: #7558e9;
+}
+.container .erro{
+    border: 1px solid red !important;
 }
